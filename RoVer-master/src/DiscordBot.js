@@ -163,7 +163,7 @@ class DiscordBot {
    * @memberof DiscordBot
    */
   setActivity (text, activityType) {
-    this.bot.user.setActivity(text || 'http://eryn.io/RoVer', { type: activityType })
+    this.bot.user.setActivity(text || 'DeltonBot/verify/.io', { type: activityType })
   }
 
   /**
